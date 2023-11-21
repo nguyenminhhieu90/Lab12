@@ -1,0 +1,32 @@
+.mauDo {
+    color: red;
+}
+
+.mauXanh {
+    color: green;
+}
+
+.mauVang {
+    color: yellow;
+}
+
+.mauGhi {
+    color: #666;
+}
+
+.mauTim {
+    color: violet;
+}
+
+ul {
+    display: flex;
+    margin: 1rem 0rem;
+    list-style: none;
+    padding: 0px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #666;
+}

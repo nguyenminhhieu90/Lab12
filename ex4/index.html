@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <ul>
+            <li><a href="#" class="selected" id="html">HTML</a></li>
+            <li><a href="#" id="css">CSS</a></li>
+            <li><a href="#" id="jquery">Jquery</a></li>
+            <li><a href="#" id="php">PHP</a></li>
+        </ul>
+        <div id="content"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#content").load("tabs/html.html");
+            // $("#main ul li a").click(function(){
+            //     $("#main ul li a").removeClass();
+            //     var id = $(this).attr("id");
+            //     $(this).addClass("selected");
+            //     // $("#content").load("tabs/"+id+".html");
+            //     var url = "tabs/"+id+".html"
+            //     // alert(url);
+            //     $("#content").load(url);
+            // });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="main">
+        <h3>Chọn màu chữ</h3>
+        <ul>
+            <li><a href="#" id="mauDo">Đỏ</a></li>
+            <li><a href="#" id="mauXanh">Xanh</a></li>
+            <li><a href="#" id="mauVang">Vàng</a></li>
+            <li><a href="#" id="mauGhi">Ghi</a></li>
+            <li><a href="#" id="mauTim">Tím</a></li>
+        </ul>
+        <div id="content">Lập trình web với PHP</div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("a").click(function(){
+            $("#content").removeClass();
+            val = $(this).attr("id");
+            $("#content").addClass(val);
+        });
+    });
+</script>
+</html>

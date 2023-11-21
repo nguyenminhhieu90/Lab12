@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+ul li{
+    margin-right: 5px;
+}
+ul li a{
+    display: block;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #d2d3d5;
+    color: #000;
+}
+.selected{
+    border-bottom: 1px solid #fff ;
+    background-color: #782a90 ;
+    color: #fff ;
+}
+#content{
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 300px;
+    margin-top: -1px;
+    padding: 5px 10px;
+}
